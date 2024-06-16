@@ -28,8 +28,8 @@ const HomeCard = ({
           <Image src={img} alt="" width={36} height={36} />
         </div>
         <div>
-          <h1 className="text-xl lg:text-2xl font-bold pb-4">{title}</h1>
-          <p className="text-[16px] lg:text-[18px] text-sky-2 leading-tight">
+          <h1 className="text-xl lg:text-2xl font-bold pb-3">{title}</h1>
+          <p className="text-base lg:text-lg text-sky-2 leading-tight">
             {description}
           </p>
         </div>
